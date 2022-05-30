@@ -1,0 +1,35 @@
+body {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header > nav > ul > li > a {
+    text-decoration: none;
+    color: white;
+}
+
+header > nav > ul > li {
+    list-style: none;
+    display: inline;
+}
+
+header {
+    background-color: dodgerblue;
+    padding: 1em;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header > h1, header > nav > ul {
+    display: inline;
+    padding: 0;
+}
+
+footer {
+    background-color: dodgerblue;
+    padding: 1em;
+    color: white;
+    text-align: center;
+}
